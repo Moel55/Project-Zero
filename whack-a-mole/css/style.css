@@ -1,6 +1,4 @@
-body {
-   height: 60%;
-}
+
 #modal {
     height: 30vh;
     width: 70vw;
@@ -20,9 +18,14 @@ h1 {
     display: flex;
     
 }
-.counting, .score{
-    height: 80px;
-    width: 100px;
+.counting{
+    background-color: rgba(247, 247, 245, .2);
+    width: 120px;
+    float: right;
+}
+.score{
+    background-color: rgba(238, 238, 214, 0.344);
+    width: 120px;
     float: right;
 }
 .count {
@@ -42,7 +45,7 @@ h1 {
     padding-left: 15px;
 }
 .counter {
-    background-origin: 1px solid #000/*#5d6961*/;
+   border: 1px solid #5d6961;
     padding:2px
 }
 #hole-container ul {
@@ -71,4 +74,16 @@ li .popUp {
     flex-direction: row;
     justify-content: space-evenly;
 
+}
+.starter {
+    font-size: 50px;
+    border-radius: 15px;
+    
+}
+#wrap {
+    margin: 10px;
+    border: 2px black solid;
+    /*padding: 30px;*/
+    border-radius: 10px;
+    background-color: rgba(161, 159, 159, 0.1);
 }

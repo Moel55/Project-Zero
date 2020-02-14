@@ -55,11 +55,23 @@ function timer() {
             img.setAttribute('class', 'popUp');
             hole.appendChild(img) 
 
-            // if (hole === recentHole) {
-            //     return moleHoles
-            // }
-            // recentHole = hole;
-            // return hole;
+            img.animate([
+                // keyframes
+                 
+                { transform: 'translateY(-5px)' },
+                
+                { transform: 'translateY(-20px)' },
+                { transform: 'translateY(-20px)' },
+                { transform: 'translateY(5px)' },
+                // { transform: 'translateY(-10px)' },
+                // { transform: 'translateY(-5px)' },
+                // { transform: 'translateY(0px)' }
+              ], { 
+                // timing options
+                duration: 1200,
+                iterations: 1
+              });                          
+              
         } else {
             let removeThisMole = document.querySelector('.popUp');
             if (removeThisMole) {
