@@ -68,10 +68,10 @@ function timer() {
                 // { transform: 'translateY(0px)' }
               ], { 
                 // timing options
-                duration: 1200,
+                duration: 1400,
                 iterations: 1
               });                          
-              
+
         } else {
             let removeThisMole = document.querySelector('.popUp');
             if (removeThisMole) {
@@ -81,7 +81,7 @@ function timer() {
         if (second < 0){
             clearInterval(times);
         }
-    }, 1200);
+    }, 1400);
 }
 function whackEm(timer){
     let recentHole;

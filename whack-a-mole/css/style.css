@@ -13,6 +13,8 @@
 }
 h1 {
     text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 75px;
 }
 #empty {
     display: flex;
@@ -83,7 +85,6 @@ li .popUp {
 #wrap {
     margin: 10px;
     border: 2px black solid;
-    /*padding: 30px;*/
     border-radius: 10px;
     background-color: rgba(161, 159, 159, 0.1);
 }
