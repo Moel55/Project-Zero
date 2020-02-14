@@ -1,0 +1,74 @@
+body {
+   height: 60%;
+}
+#modal {
+    height: 30vh;
+    width: 70vw;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.18);
+    left: 125px;
+    top: 200px;
+    
+   align-items: center;
+   
+}
+h1 {
+    text-align: center;
+}
+#empty {
+    display: flex;
+    
+}
+.counting, .score{
+    height: 80px;
+    width: 100px;
+    float: right;
+}
+.count {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+.display {
+    height: 120px;
+    width: 250px;
+    background-color:#d2d6d3;
+    border-radius: 10%;
+}
+.display p{
+    font-size: 35px;
+    padding-left: 15px;
+}
+.counter {
+    background-origin: 1px solid #000/*#5d6961*/;
+    padding:2px
+}
+#hole-container ul {
+    margin-top: 15vh;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex: row;
+    align-items: center;
+}
+.holes {
+    margin: 0 12%
+}
+li {
+    margin-top: 20px;
+    list-style: none;
+    position: relative;
+}
+li .popUp {
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+.molees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
